@@ -16,7 +16,7 @@
 - **Java 21**
 - **Spring Boot 3**
 - **Spring Data JPA**
-- **PostgreSQL** (for production)
+- **PostgreSQL**
 - **Lombok** for reducing boilerplate code
 - **Docker** for containerization
 
