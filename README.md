@@ -28,8 +28,8 @@
 
 - Java 21
 - Gradle
-- PostgreSQL (for production)
-- Docker (for containerized deployment)
+- PostgreSQL 
+- Docker
 
 ### Installation
 
@@ -37,7 +37,8 @@
    ```bash
    git clone https://github.com/rKlauss/EnefitHomeAssignment.git
    cd EnefitHomeAssignment/backend
-
+    ```
+    ```bash
    git clone https://github.com/rKlauss/frontend.git
    cd frontend/enefit-frontend
    ```
@@ -56,13 +57,6 @@ docker build -t enefitfrontend .
 ```bash
 docker-compose up --build
 ```
-
-3. **Check Container Health:**
-
-```bash
-docker ps
-```
-
 ---
 ## Testing
 
@@ -76,6 +70,7 @@ docker ps
 | alice_brown  | pass789 |
 | jane_smith   | securePass456 |
 
+Customer john_doe has more than 1 metering point, others have only 1.
 
 ## Author
 Rasmus Klaus
