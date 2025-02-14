@@ -26,7 +26,7 @@
 
 ### Prerequisites
 
-- Java 17+
+- Java 21
 - Gradle
 - PostgreSQL (for production)
 - Docker (for containerized deployment)
